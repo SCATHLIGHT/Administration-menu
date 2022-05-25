@@ -31,29 +31,23 @@ Commands
 	/adminmenu - Ouvre l'interface.
 	/menu - Même fonction que adminmenu.
 	/am - Même fonction que adminmenu.
+	
 Permissions:
 
     	adminmenu.* - Donne accès au menu COMPLET.
     	adminmenu.player.* - Permet d'accéder à la section du menu du Joueur.
     	adminmenu.permissions.* - Donne accès à la section de menu des permissions.
-    	adminmenu.open - Gives access to open the admin menu (Without this then no other permissions will work)
-    	adminmenu.teleport.to - Gives access to teleport to people.
-    	adminmenu.teleport.toyou - Gives access to teleport people to you.
-	adminmenu.clearinv - Gives access to clear a players inventory.
-	adminmenu.openinv - Gives access to open a players inventory.
-	adminmenu.kill - Gives access to kill a player.
-	adminmenu.xp - Gives access to give a player 100 xp.
-	adminmenu.enderchest - Gives access to open a players enderchest.
-	adminmenu.mute - Gives access to mute/unmute players.
-	adminmenu.warn - Gives access to warn a player (Simply makes a message in chat that the player has been warned)
-	adminmenu.jail - Gives access to jail someone in the jail called "jail" (Has to be preset in essentails)
-	adminmenu.kick - Permet de kick un joueur.
-	adminmenu.ban - Permet de bannir un joueur.
-	adminmenu.tempban - Permet de temp bannir un joueur pendant un certain temps.
-Planned features
-Add your own commands to the menu. Probably through a config file or just ingame command.
-Give the user ability to set groups to players using the menu. (Release: 21st october. )(Possibly adding so you can make prefixes/Suffixes).
-Adding freeze/Unfreeze to the player editor.
-(Possible feature: Add a reason for the bans either in the menu or type it in chat.)
-Known bugs
-None so far. Let me know if you find them!
+    	adminmenu.open - Permet d'ouvrir l'admin menu (Sans cela, aucune autre permission ne fonctionnera)
+    	adminmenu.teleport.to - Permet d'accéder à la téléportation des personnes.
+    	adminmenu.teleport.toyou - Permet de téléporter des joueur vers vous.
+    	adminmenu.clearinv - Permet de vider l'inventaire des joueurs.
+    	adminmenu.openinv - Permet d'ouverture l'un inventaire de joueurs.
+    	adminmenu.kill - Permet de tuer le joueur.
+    	adminmenu.xp - Permet de donner a un joueur 100 xp.
+    	adminmenu.enderchest - Permet d'ouvrir l'ender chest d'un joueur
+    	adminmenu.mute - Permet de mute/unmute players.
+    	adminmenu.warn - Permet de warn un joueur (Fait simplement un message dans le chat indiquant que le joueur a été averti)
+    	adminmenu.jail -Permet de mettre en prision un joueur (Doit être présent dans essentails)
+            adminmenu.kick - Permet de kick un joueur.
+    	adminmenu.ban - Permet de bannir un joueur.
+    	adminmenu.tempban - Permet de temp bannir un joueur pendant un certain temps.
